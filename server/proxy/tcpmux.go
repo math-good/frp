@@ -19,10 +19,10 @@ import (
 	"net"
 	"strings"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/consts"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/vhost"
+	"frp/models/config"
+	"frp/models/consts"
+	"frp/utils/util"
+	"frp/utils/vhost"
 )
 
 type TCPMuxProxy struct {

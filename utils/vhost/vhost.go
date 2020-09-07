@@ -19,9 +19,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/fatedier/frp/utils/log"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/xlog"
+	"frp/utils/log"
+	frpNet "frp/utils/net"
+	"frp/utils/xlog"
 
 	"github.com/fatedier/golib/errors"
 )

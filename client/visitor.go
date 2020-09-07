@@ -24,12 +24,12 @@ import (
 	"sync"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/models/proto/udp"
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
-	"github.com/fatedier/frp/utils/xlog"
+	"frp/models/config"
+	"frp/models/msg"
+	"frp/models/proto/udp"
+	frpNet "frp/utils/net"
+	"frp/utils/util"
+	"frp/utils/xlog"
 
 	"github.com/fatedier/golib/errors"
 	frpIo "github.com/fatedier/golib/io"

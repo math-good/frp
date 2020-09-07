@@ -20,8 +20,8 @@ import (
 	"net"
 	"sync"
 
-	frpNet "github.com/fatedier/frp/utils/net"
-	"github.com/fatedier/frp/utils/util"
+	frpNet "frp/utils/net"
+	"frp/utils/util"
 
 	frpIo "github.com/fatedier/golib/io"
 )

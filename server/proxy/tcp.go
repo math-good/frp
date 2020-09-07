@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/fatedier/frp/models/config"
+	"frp/models/config"
 )
 
 type TCPProxy struct {

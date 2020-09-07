@@ -27,11 +27,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/fatedier/frp/client"
-	"github.com/fatedier/frp/models/auth"
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/utils/log"
-	"github.com/fatedier/frp/utils/version"
+	"frp/client"
+	"frp/models/auth"
+	"frp/models/config"
+	"frp/utils/log"
+	"frp/utils/version"
 )
 
 const (

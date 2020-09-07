@@ -22,7 +22,7 @@ import (
 
 	ini "github.com/vaughan0/go-ini"
 
-	"github.com/fatedier/frp/models/auth"
+	"frp/models/auth"
 )
 
 // ClientCommonConf contains information for a client service. It is

@@ -21,11 +21,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/fatedier/frp/models/config"
-	"github.com/fatedier/frp/models/msg"
-	"github.com/fatedier/frp/models/proto/udp"
-	"github.com/fatedier/frp/server/metrics"
-	frpNet "github.com/fatedier/frp/utils/net"
+	"frp/models/config"
+	"frp/models/msg"
+	"frp/models/proto/udp"
+	"frp/server/metrics"
+	frpNet "frp/utils/net"
 
 	"github.com/fatedier/golib/errors"
 	frpIo "github.com/fatedier/golib/io"

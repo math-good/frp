@@ -18,8 +18,8 @@ import (
 	"math/rand"
 	"time"
 
-	_ "github.com/fatedier/frp/assets/frpc/statik"
-	"github.com/fatedier/frp/cmd/frpc/sub"
+	_ "frp/assets/frpc/statik"
+	"frp/cmd/frpc/sub"
 
 	"github.com/fatedier/golib/crypto"
 )

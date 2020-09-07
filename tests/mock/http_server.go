@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/fatedier/frp/tests/consts"
+	"frp/tests/consts"
 
 	"github.com/gorilla/websocket"
 )

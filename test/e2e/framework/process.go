@@ -6,8 +6,8 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/fatedier/frp/test/e2e/pkg/process"
-	flog "github.com/fatedier/frp/utils/log"
+	"frp/test/e2e/pkg/process"
+	flog "frp/utils/log"
 )
 
 func GenerateConfigFile(path string, content string) error {

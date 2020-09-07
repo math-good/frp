@@ -20,9 +20,9 @@ import (
 	"net"
 	"sync"
 
-	"github.com/fatedier/frp/models/consts"
-	"github.com/fatedier/frp/utils/tcpmux"
-	"github.com/fatedier/frp/utils/vhost"
+	"frp/models/consts"
+	"frp/utils/tcpmux"
+	"frp/utils/vhost"
 
 	gerr "github.com/fatedier/golib/errors"
 )

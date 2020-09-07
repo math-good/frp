@@ -20,10 +20,13 @@ import (
 
 	"github.com/fatedier/golib/crypto"
 
-	_ "github.com/fatedier/frp/assets/frps/statik"
-	_ "github.com/fatedier/frp/models/metrics"
+	_ "frp/assets/frps/statik"
+	_ "frp/models/metrics"
 )
 
+/**
+服务端入口
+ */
 func main() {
 	crypto.DefaultSalt = "frp"
 	rand.Seed(time.Now().UnixNano())

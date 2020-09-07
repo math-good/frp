@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/fatedier/frp/models/metrics/aggregate"
+	"frp/models/metrics/aggregate"
 )
 
 var EnableMem = aggregate.EnableMem
